@@ -1,4 +1,5 @@
  def isHappy(self, n: int) -> bool:
+#   to calculate happy numbers
         seen = set()
         set is use to avoid the duplicacy
         while n not in seen:
