@@ -1,4 +1,4 @@
-
+# Also instead of carrying the base pointers we can alter the array after storing each coordinates in DFS call and since python wasn't allowing me to hash array values so need to convert it to tuple before storing
 from typing import List
 from collections import deque
 class Solution:
